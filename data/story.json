@@ -2,50 +2,92 @@
   "parts": [
     {
       "id": 0,
-      "name": "Your journey begins",
-      "image": "step-0.jpg",
-      "text": "As you step through the mystical portal, the air crackles with magic, and you find yourself standing in a breathtaking landscape of Eldoria. The sky is painted with hues unknown to your world, and fantastical creatures roam in the distance. Before you stretches a path leading to the heart of the realm. As you begin your journey, an ancient figure appears before you. 'Greetings, traveler! In Eldoria, you'll face challenges beyond your wildest imagination. But fear not, for you may choose a weapon to aid you on your quest.'",
+      "name": "The Turning Point",
+      "text": "As [PLAYER] stands at the crossroads, the world teeters on the precipice of change. A palpable tension hangs in the air, demanding a decision that will shape the destiny of the realm. Two paths diverge before [PLAYER], each laden with its own perils and promises. The time has come to make a choice.",
       "options": [
         {
-          "text": "Select the Enchanted Sword",
-          "path": "select_sword",
-          "target": 1
-        },
-        {
-          "text": "Choose the Elemental Staff",
-          "path": "select_staff",
+          "id": 1,
+          "text": "Approach the King",
           "target": 2
         },
         {
-          "text": "Opt for the Arcane Bow",
-          "path": "select_bow",
+          "id": 2,
+          "text": "Join the Resistance",
           "target": 3
         }
       ]
     },
     {
-      "id": 1,
-      "name": "Part 2",
-      "text": "This is part 2",
+      "id": 2,
+      "name": "Royal Allegiance",
+      "text": "In the grand chamber, the King listens to [PLAYER]'s plea with a demeanor both regal and inscrutable. The ruler, burdened by the weight of a crumbling kingdom, offers a pact that could alter the course of history. Will [PLAYER] pledge allegiance to the crown, navigating the treacherous currents of courtly politics, or is there another path that beckons?",
       "options": [
         {
-          "id": 2,
-          "text": "Go back to start",
-          "target": 0
+          "id": 3,
+          "text": "Swear fealty to the King",
+          "target": 4
+        },
+        {
+          "id": 4,
+          "text": "Defy the crown and join the Resistance",
+          "target": 3
         }
       ]
     },
     {
-      "id": 2,
-      "name": "Part 3",
-      "text": "This is part 3",
+      "id": 3,
+      "name": "Resistance's Call",
+      "image": "joiningTheRecistance.jpg",
+      "text": "Choosing to join the Resistance, [PLAYER] aligns with a clandestine force that opposes the tyranny of the ruling power. The underground network, shrouded in secrecy, rallies against the King's oppression. As [PLAYER] becomes entwined in the Resistance's cause, the path to change takes a darker, more perilous turn.",
       "options": [
         {
+          "id": 23,
+          "text": "Continue the resistance journey",
+          "target": 24
+        },
+        {
+          "id": 6,
+          "text": "Reconsider and seek an audience with the King",
+          "target": 2
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "image": "fealtyToTheKing.jpg",
+      "name": "The kings mission",
+      "text": "As the hero has sworn fielty to the king, [PLAYER] is granted a mission. A mission with great peril and one that will not be an easy task. A dragon has been ravaging the lands for many years now, many have tried to kill it, but everyone who left has not returned. The wise man the king is sees potential in having a dragon by his side. The king wants you to trap the dragon for use in his army.",
+      "options": [
+        {
+          "id": 3,
+          "text": "Accept the mission",
+          "target": 5
+        },
+        {
           "id": 4,
-          "text": "Go back to part 2",
-          "target": 1
+          "text": "Decline the mission",
+          "target": 6
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "image": "fealtyToTheKing.jpg",
+      "name": "The kings mission",
+      "text": "As the hero has sworn fielty to the king, [PLAYER] is granted a mission. A mission with great peril and one that will not be an easy task. A dragon has been ravaging the lands for many years now, many have tried to kill it, but everyone who left has not returned. The wise man the king is sees potential in having a dragon by his side. The king wants you to trap the dragon for use in his army.",
+      "options": [
+        {
+          "id": 3,
+          "text": "Accept the mission",
+          "target": 5
+        },
+        {
+          "id": 4,
+          "text": "Decline the mission",
+          "target": 6
         }
       ]
     }
   ]
 }
+
