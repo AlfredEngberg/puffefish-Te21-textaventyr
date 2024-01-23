@@ -72,6 +72,7 @@
     },
     {
       "id": 5,
+      "image": "dragonFight.jpg",
       "name": "Taming a dragon",
       "text": "In a daring display of courage, [PLAYER] encounters the dragon, moving head on to tame it. The creature, with scales glistening like obsidian, eyes [PLAYER] with a mix of curiosity and defiance. A moment of truth unfolds as [PLAYER] decides how to best tmae the beast. With a blend of finesse and bravery, [PLAYER] successfully tames the dragon, forging an unexpected bond between human and mythical creature. The once-mighty beast now bows to [PLAYER]'s will, becoming a powerful ally in the royal mission.",
       "options": [
