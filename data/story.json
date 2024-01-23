@@ -3,6 +3,7 @@
     {
       "id": 0,
       "name": "The Turning Point",
+      "image": null,
       "text": "As [PLAYER] stands at the crossroads, the world teeters on the precipice of change. A palpable tension hangs in the air, demanding a decision that will shape the destiny of the realm. Two paths diverge before [PLAYER], each laden with its own perils and promises. The time has come to make a choice.",
       "options": [
         {
@@ -20,6 +21,7 @@
     {
       "id": 2,
       "name": "Royal Allegiance",
+      "image": null,
       "text": "In the grand chamber, the King listens to [PLAYER]'s plea with a demeanor both regal and inscrutable. The ruler, burdened by the weight of a crumbling kingdom, offers a pact that could alter the course of history. Will [PLAYER] pledge allegiance to the crown, navigating the treacherous currents of courtly politics, or is there another path that beckons?",
       "options": [
         {
@@ -54,8 +56,8 @@
     },
     {
       "id": 4,
-      "image": "fealtyToTheKing.jpg",
       "name": "The kings mission",
+      "image": "fealtyToTheKing.jpg",
       "text": "As [PLAYER] has sworn fielty to the king, [PLAYER] is granted a mission. A mission with great peril and one that will not be an easy task. A dragon has been ravaging the lands for many years now, many have tried to kill it, but everyone who left has not returned. The wise man the king is sees potential in having a dragon by his side. The king wants you to trap the dragon for use in his army.",
       "options": [
         {
@@ -72,8 +74,8 @@
     },
     {
       "id": 5,
-      "image": "dragonFight.jpg",
       "name": "Taming a dragon",
+      "image": "dragonFight.jpg",
       "text": "In a daring display of courage, [PLAYER] encounters the dragon, moving head on to tame it. The creature, with scales glistening like obsidian, eyes [PLAYER] with a mix of curiosity and defiance. A moment of truth unfolds as [PLAYER] decides how to best tmae the beast. With a blend of finesse and bravery, [PLAYER] successfully tames the dragon, forging an unexpected bond between human and mythical creature. The once-mighty beast now bows to [PLAYER]'s will, becoming a powerful ally in the royal mission.",
       "options": [
         {
@@ -86,6 +88,7 @@
     {
       "id": 6,
       "name": "The fury of the king",
+      "image": null,
       "text": "In an act of defiance, [PLAYER] chooses to decline the critical mission assigned by the King. The ruler, enraged by this act of insubordination, views it as a direct challenge to the authority of the throne. [PLAYER]'s fate takes a dark turn as they face the consequences of their refusal. The King, unwavering in their resolve, decrees that [PLAYER]'s act of defiance cannot go unpunished. [PLAYER] is brought before the court, where the air is heavy with tension. The executioner's block awaits, and [PLAYER] accepts his fate with a look in his eyes. [PLAYER] is brought infront of the executioner and before the executioner can swing his axe, [PLAYER] manages to speak one final sentance 'You can kill me, maybe even the next hero, but there will always be someone to take their place. You can never kill hope'.",
       "options": [
         {
@@ -98,6 +101,7 @@
     {
       "id": 8,
       "name": "Harnessing the Dragon's Power",
+      "image": null,
       "text": "With the newly tamed dragon by their side, [PLAYER] returns to the King's court, a symbol of unparalleled power. The ruler, astonished by [PLAYER]'s accomplishment, acknowledges the strength that the dragon brings to the royal cause. The kingdom is both awed and terrified by the fearsome duo. In alignment with the King's vision, [PLAYER] collaborates to integrate the dragon into the royal agenda. The fearsome duo becomes a symbol of the kingdom's strength, but [PLAYER]'s allegiance is tested as they delve deeper into the monarch's plans. In obedience to the King's commands, [PLAYER] executes missions with the dragon, showcasing their combined might. [PLAYER]'s role becomes instrumental in the ruler's quest for dominance. The might of the kings army grows and with the dragons power no one can oppose the kings rule. The king rules with an iron fist and any seed of rebelion is squashed before it can sprout.",
       "options": [
         {
@@ -110,6 +114,7 @@
     {
       "id": 10,
       "name": "Joining Forces with the Resistance",
+      "image": null,
       "text": "Having aligned with the Resistance, [PLAYER] becomes a key figure in the clandestine struggle against the tyrannical rule of the King. The underground network, shrouded in secrecy, plans a daring rebellion to overthrow the oppressive monarch. [PLAYER] stands at the heart of this resistance, ready to challenge the forces of tyranny.",
       "options": [
         {
@@ -122,6 +127,7 @@
     {
       "id": 11,
       "name": "Participating in the Rebellion Planning",
+      "image": null,
       "text": "As a crucial member of the resistance, [PLAYER] engages in the meticulous planning of the rebellion. Strategies are devised, alliances are forged, and the oppressed citizens rally behind [PLAYER]'s banner. The time for action approaches, and [PLAYER] must navigate the intricate web of rebellion with cunning and determination.",
       "options": [
         {
@@ -139,6 +145,7 @@
     {
       "id": 12,
       "name": "Infiltrating the King's Castle",
+      "image": null,
       "text": "In a daring and stealthy move, [PLAYER] infiltrates the heavily guarded castle of the tyrant King. Shadows cloak their every step as they navigate through secret passages and avoid the vigilant eyes of the royal guards. The heart of darkness awaits, and [PLAYER] must tread carefully to reach the throne room where the King resides.",
       "options": [
         {
@@ -151,6 +158,7 @@
     {
       "id": 14,
       "name": "Approaching the Throne Room",
+      "image": null,
       "text": "With nerves of steel, [PLAYER] approaches the entrance to the throne room. Guards patrol the area, and the sounds of revelry emanate from within. [PLAYER] takes a deep breath, preparing for the final confrontation that will determine the destiny of the kingdom.",
       "options": [
         {
@@ -163,6 +171,7 @@
     {
       "id": 15,
       "name": "Entering the Throne Room",
+      "image": null,
       "text": "Stepping into the opulent throne room, [PLAYER] faces the embodiment of tyranny—the King. Surrounded by opulence, the monarch is unaware of the impending doom. [PLAYER], cloaked in shadows, readies themselves for the decisive moment when justice will be delivered to the oppressor.",
       "options": [
         {
@@ -175,6 +184,7 @@
     {
       "id": 16,
       "name": "Assassinating the King",
+      "image": null,
       "text": "In a swift and calculated strike, [PLAYER] assassinates the tyrant King, silencing the oppressive reign that gripped the kingdom. The throne room becomes a stage of both liberation and trepidation. [PLAYER] stands amidst the echoes of their actions, knowing that the kingdom's destiny has shifted with the fall of the tyrant.",
       "options": [
         {
@@ -187,6 +197,7 @@
     {
       "id": 17,
       "name": "Utilizing Magical Powers for Rebellion",
+      "image": null,
       "text": "Empowered by ancient magic, [PLAYER] and the resistance harness supernatural abilities to disrupt the tyrant King's supply lines and weaken the foundation of his rule. The clandestine rebellion gains momentum as mystical forces are unleashed to pave the way for an eventual assault on the oppressive monarch's castle.",
       "options": [
         {
@@ -199,6 +210,7 @@
     {
       "id": 18,
       "name": "Continuing the Magical Disruption",
+      "image": null,
       "text": "[PLAYER] and the resistance press on with their magical disruption, creating chaos within the King's forces. The mystical interference confounds the enemy, allowing the rebellion to gain ground and move closer to their ultimate goal of seizing the tyrant King's castle.",
       "options": [
         {
@@ -211,6 +223,7 @@
     {
       "id": 19,
       "name": "Proceeding with the Castle Assault",
+      "image": null,
       "text": "As [PLAYER] and the resistance approach the tyrant King's castle, the anticipation of victory looms in the air. However, the King, aware of the impending threat, deploys his formidable army to defend the stronghold. The clash between the rebellion and the King's forces becomes an epic battle that will determine the fate of the kingdom.",
       "options": [
         {
@@ -223,6 +236,7 @@
     {
       "id": 20,
       "name": "Engaging in the Epic Battle",
+      "image": null,
       "text": "The epic battle unfolds with magical energies colliding and armies clashing. Despite [PLAYER] and the resistance's extraordinary efforts, the sheer might of the King's army proves overwhelming. The rebellion's plan begins to crumble under the relentless assault, and the dream of overthrowing the tyrant King teeters on the brink of collapse.",
       "options": [
         {
@@ -235,6 +249,7 @@
     {
       "id": 21,
       "name": "Witnessing the Rebellion's Defeat",
+      "image": null,
       "text": "As [PLAYER] witnesses the rebellion's defeat, the tyrant King's forces quash the resistance's last stand. The dream of liberation dissipates in the face of overwhelming power. [PLAYER], now surrounded by the echoes of a failed rebellion, must confront the consequences of their choices.",
       "options": [
         {

@@ -42,10 +42,17 @@ router.get('/story/:id', function (req, res) {
   res.render('part.njk', { title: name, part: part })
 })
 
-router.get('/dbtest', async (req, res) => {
+
+router.get('/dbtest:id', async (req, res) => {
   try {
-    const [parts] = await pool.promise().query('SELECT * FROM alfred_part')
-    res.json({ parts })
+    const id = req.params.id
+    const [parts] = await pool
+      .promise()
+      .query(`SELECT * FROM alfred_part WHERE id = ${id}`)
+    const [options] = await pool
+      .promise()
+      .query(`SELECT * FROM alfred_option WHERE part_id = ${id}`)
+    res.json({ parts, options })
   } catch (error) {
     console.log(error)
     res.sendStatus(500)
