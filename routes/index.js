@@ -1,6 +1,8 @@
 const express = require('express')
 const router = express.Router()
 
+const pool = require('../db')
+
 const story = require('../data/story.json')
 
 router.get('/', function (req, res) {
@@ -38,6 +40,16 @@ router.get('/story/:id', function (req, res) {
   let text = part.text.replace(/\[PLAYER\]/g, req.session.username);
   part = { ...part, name: name, text: text }
   res.render('part.njk', { title: name, part: part })
+})
+
+router.get('/dbtest', async (req, res) => {
+  try {
+    const [parts] = await pool.promise().query('SELECT * FROM alfred_part')
+    res.json({ parts })
+  } catch (error) {
+    console.log(error)
+    res.sendStatus(500)
+  }
 })
 
 module.exports = router
