@@ -43,6 +43,16 @@ router.get('/story/:id', function (req, res) {
 })
 
 
+router.get('/dbtest', async (req, res) => {
+  try {
+    const [parts] = await pool.promise().query('SELECT * FROM alfred_part')
+    res.json({ parts })
+  } catch (error) {
+    console.log(error)
+    res.sendStatus(500)
+  }
+})
+
 router.get('/dbtest:id', async (req, res) => {
   try {
     const id = req.params.id
